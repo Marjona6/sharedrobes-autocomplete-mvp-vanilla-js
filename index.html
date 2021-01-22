@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="main.css" />
+  <script type="text/javascript" src="index.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+      autocomplete(document.getElementById('myInput'), shareableItems)
+    })
+  </script>
+</head>
+<body>
+  <form autocomplete="off" action="alert("We'll get right on that!")">
+    <div class="autocomplete" style="width: 300px">
+      <input
+        id="myInput"
+        type="text"
+        name="myItem"
+        placeholder="What would you like to share?"
+      />
+    </div>
+    <input type="submit" />
+  </form>
+</body>

@@ -1,0 +1,16 @@
+{
+  "name": "sharedrobes-autocomplete-mvp-vanilla",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prettier": "prettier --ignore-path .gitignore  --write \"**/*.+(js|json|css|html)\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^6.3.0",
+    "prettier": "^2.2.1"
+  }
+}
